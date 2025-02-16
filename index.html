@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Rates Viewer</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>نرخ ارز نسبت به دلار</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>واحد پول</th>
+                    <th>نرخ</th>
+                    <th>عملیات</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>یورو</td>
+                    <td id="eur-rate">--</td>
+                    <td><button id="refresh-eur">Refresh</button></td>
+                </tr>
+                <tr>
+                    <td>پوند</td>
+                    <td id="gbp-rate">--</td>
+                    <td><button id="refresh-gbp">Refresh</button></td>
+                </tr>
+                <tr>
+                    <td>ریال</td>
+                    <td id="irr-rate">--</td>
+                    <td><button id="refresh-irr">Refresh</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="refresh-all">Refresh All</button>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
