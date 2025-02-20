@@ -20,7 +20,7 @@ A simple project for displaying the exchange rates of various currencies relativ
 ## 📦 How to Run
 1. Download or clone the code:
    `bash
-   git clone https://github.com/MehdiNOUX/currency-rates-viewer.git
+   git clone https://github.com/theMNOX/currency-rates-viewer.git
 
 2. Open the project files.
 
